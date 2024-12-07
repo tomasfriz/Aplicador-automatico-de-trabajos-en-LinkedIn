@@ -17,7 +17,7 @@ version:    24.12.3.10.30
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-search_terms = ["Desarrollador Web", "Desarrollador Full Stack", "Desarrollador Web Full Stack", "Desarrollador WordPress", "WordPress", "FrontEnd", "Desarrollador FrontEnd", "React", "Diseñador Web"]
+search_terms = ["Desarrollador Web", "Desarrollador Full Stack", "Desarrollador Web Full Stack", "Desarrollador WordPress", "WordPress", "FrontEnd", "Desarrollador FrontEnd", "Diseñador Web"]
 
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
 search_location = "Buenos Aires, Argentina"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
@@ -52,7 +52,7 @@ salary = ""                        # "$40,000+", "$60,000+", "$80,000+", "$100,0
 
 easy_apply_only = True             # True or False, Note: True or False are case-sensitive
 
-experience_level = []              # (multiple select) "Internship", "Entry level", "Associate", "Mid-Senior level", "Director", "Executive"
+experience_level = ["Internship", "Entry level"]              # (multiple select) "Internship", "Entry level", "Associate", "Mid-Senior level", "Director", "Executive"
 job_type = []                      # (multiple select) "Full-time", "Part-time", "Contract", "Temporary", "Volunteer", "Internship", "Other"
 on_site = []                       # (multiple select) "On-site", "Remote", "Hybrid"
 
