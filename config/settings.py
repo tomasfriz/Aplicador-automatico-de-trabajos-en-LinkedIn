@@ -18,7 +18,7 @@ version:    24.12.3.10.30
 # >>>>>>>>>>> LinkedIn Settings <<<<<<<<<<<
 
 # Keep the External Application tabs open?
-close_tabs = False                  # True or False, Note: True or False are case-sensitive
+close_tabs = True                  # True or False, Note: True or False are case-sensitive
 '''
 Note: RECOMMENDED TO LEAVE IT AS `True`, if you set it `False`, be sure to CLOSE ALL TABS BEFORE CLOSING THE BROWSER!!!
 '''
@@ -34,7 +34,7 @@ follow_companies = False            # True or False, Note: True or False are cas
 # connect_request_message = ""       # Leave Empty to send connection request without personalized invitation (recommended to leave it empty, since you only get 10 per month without LinkedIn Premium*)
 
 # Do you want the program to run continuously until you stop it? (Beta)
-run_non_stop = False                # True or False, Note: True or False are case-sensitive
+run_non_stop = True                # True or False, Note: True or False are case-sensitive
 '''
 Note: Will be treated as False if `run_in_background = True`
 '''
@@ -49,7 +49,7 @@ stop_date_cycle_at_24hr = True      # True or False, Note: True or False are cas
 # >>>>>>>>>>> RESUME GENERATOR (Experimental & In Development) <<<<<<<<<<<
 
 # Give the path to the folder where all the generated resumes are to be stored
-generated_resume_path = "all resumes/" # (In Development)
+generated_resume_path = "C:/Users/Pc/Desktop/buscar trabajo" # (In Development)
 
 
 
