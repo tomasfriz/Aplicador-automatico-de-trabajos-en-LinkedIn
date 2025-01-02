@@ -17,7 +17,7 @@ version:    24.12.3.10.30
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-search_terms = ["Desarrollador Web", "Desarrollador Full Stack", "Desarrollador Web Full Stack", "Desarrollador WordPress", "WordPress", "FrontEnd", "Desarrollador FrontEnd", "Diseñador Web"]
+search_terms = ["Desarrollador Web", "Desarrollador WordPress", "WordPress", "FrontEnd"]
 
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
 search_location = "Buenos Aires, Argentina"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
@@ -47,7 +47,7 @@ This is below format: QUESTION = VALID_ANSWER
 '''
 
 sort_by = ""                       # "Most recent", "Most relevant" or ("" to not select) 
-date_posted = ""         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
+date_posted = "Past week"         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
 salary = ""                        # "$40,000+", "$60,000+", "$80,000+", "$100,000+", "$120,000+", "$140,000+", "$160,000+", "$180,000+", "$200,000+"
 
 easy_apply_only = True             # True or False, Note: True or False are case-sensitive
@@ -75,7 +75,7 @@ fair_chance_employer = False       # True or False, Note: True or False are case
 
 
 ## >>>>>>>>>>> SKIP IRRELEVANT JOBS <<<<<<<<<<<
- 
+
 # Avoid applying to these companies, and companies with these bad words in their 'About Company' section...
 about_company_bad_words = []       # (dynamic multiple search) or leave empty as []. Ex: ["Staffing", "Recruiting", "Name of Company you don't want to apply to"]
 
